@@ -31,20 +31,19 @@ Then visit `http://localhost:8000`.
 
 ## Web3Forms Contact Form Setup
 
-The contact form is wired to submit to `https://api.web3forms.com/submit` and currently uses the placeholder access key:
+The contact form is wired to submit to `https://api.web3forms.com/submit` and has been configured with the provided Web3Forms access key in `contact.html`:
 
 ```html
-<input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+<input type="hidden" name="access_key" value="6d266eff-7ae9-4b81-be35-848640937caf">
 ```
 
-Before launch:
+To manage form delivery:
 
-1. Sign up free at <https://web3forms.com> using the email address that should **receive** form submissions.
-2. Copy the Web3Forms access key from the dashboard.
-3. Open `contact.html` and replace `YOUR_WEB3FORMS_ACCESS_KEY` with the real key.
-4. To change or add recipient emails later, use the Web3Forms dashboard for the account tied to the access key.
+1. Log in at <https://web3forms.com> using the account tied to the access key.
+2. Confirm the receiving email address for form submissions.
+3. To change or add recipient emails later, use the Web3Forms dashboard for the account tied to the access key.
 
-With the placeholder key, test submissions are expected to show an error message. That confirms the JavaScript flow is running; successful delivery requires a real access key.
+Before launch, submit one real test message from the deployed site and confirm email delivery.
 
 ## Placeholder Images to Replace
 
@@ -76,7 +75,7 @@ If replacing images, keep file sizes small for performance. Recommended targets:
    - Build output directory: `/` or leave as repository root depending on Cloudflare UI
 5. Deploy.
 6. Add the custom domain in Cloudflare Pages and update DNS as prompted.
-7. Replace `https://YOUR-DOMAIN.com` in `sitemap.xml`, Open Graph tags, and the JSON-LD block in `index.html` with the final domain.
+7. The production domain is already set to `https://www.probecksurveying.com` in `sitemap.xml`, Open Graph tags, and the JSON-LD block in `index.html`. If the domain changes later, update those locations.
 
 ## SEO Notes
 
