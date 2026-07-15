@@ -124,11 +124,10 @@
         form.querySelectorAll('.field-error').forEach((error) => { error.textContent = ''; });
         showStatus('success', "Thanks! Your message has been sent. We'll get back to you soon.");
       } else {
-        const message = data.message ? String(data.message) + ' ' : '';
-        showStatus('error', message + 'There was a problem sending your message. Please try again, or email us directly at <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a>.');
+        showStatus('error', 'Something went wrong sending your message. Please try again in a moment.');
       }
     } catch (error) {
-      showStatus('error', 'There was a problem sending your message. Please try again, or email us directly at <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a>.');
+      showStatus('error', 'Something went wrong sending your message. Please try again in a moment.');
     } finally {
       if (submitButton) {
         submitButton.disabled = false;
