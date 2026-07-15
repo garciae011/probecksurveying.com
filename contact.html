@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10212f">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/topographic-pattern.svg" type="image/svg+xml">
+  <title>Contact Probeck Land Surveyors | Request a Survey Quote</title>
+  <meta name="description" content="Contact Probeck Land Surveyors in Dallas, Texas to request a survey quote or discuss the appropriate next step for your property or project.">
+  <meta property="og:title" content="Contact Probeck Land Surveyors | Request a Survey Quote">
+  <meta property="og:description" content="Contact Probeck Land Surveyors in Dallas, Texas to request a survey quote or discuss the appropriate next step for your property or project.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-DOMAIN.com/contact.html">
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/images/hero-placeholder.svg">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header" data-site-header>
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Probeck Land Surveyors home">
+      <span class="logo-mark" aria-hidden="true">PLS</span>
+      <span class="logo-text">
+        <span class="logo-title">Probeck Surveying</span>
+        <span class="logo-subtitle">Dallas, Texas</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="services.html">Services</a></li>
+        <li><a aria-current="page" href="contact.html">Contact</a></li>
+        <li><a class="nav-cta" href="contact.html">Request a Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="page-hero" aria-labelledby="contact-title">
+    <div class="container">
+      <p class="eyebrow">Request a quote</p>
+      <h1 id="contact-title">Need a Survey? Let's Talk</h1>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="get-in-touch-title">
+    <div class="container contact-grid">
+      <aside>
+        <p class="eyebrow">Get In Touch</p>
+        <h2 id="get-in-touch-title">Get In Touch</h2>
+        <div class="lead" style="margin-top: 1rem;">
+          <p>Not sure what type of survey you need? Send us the property address and a brief description of your project, and we will help determine the appropriate next step.</p>
+          <p>Contact Probeck Land Surveyors today to request a survey quote or speak with us about your project.</p>
+        </div>
+        <div class="info-list">
+          <div class="info-item">
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+          </div>
+          <div class="info-item">
+            <h3>Business Hours</h3>
+            <ul class="hours-list">
+              <li>Monday – Friday: 8:00 AM – 5:00 PM CST</li>
+              <li>Saturday: By appointment only</li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <form class="contact-form surface-card" id="survey-contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
+        <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="New survey inquiry from probecksurveying.com">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <span class="field-error" id="name-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <span class="field-error" id="email-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="phone-error">
+            <span class="field-error" id="phone-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="property-address">Property Address</label>
+            <input id="property-address" name="property_address" type="text" autocomplete="street-address" aria-describedby="property-address-error">
+            <span class="field-error" id="property-address-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="survey-type">Type of Survey Needed</label>
+            <select id="survey-type" name="survey_type" aria-describedby="survey-type-error">
+              <option value="">Select a survey type</option>
+              <option>Boundary Survey</option>
+              <option>Residential Survey</option>
+              <option>Commercial Survey</option>
+              <option>ALTA/NSPS Survey</option>
+              <option>Topographic Survey</option>
+              <option>Elevation Certificate</option>
+              <option>Construction Staking</option>
+              <option>Other/Not Sure</option>
+            </select>
+            <span class="field-error" id="survey-type-error" aria-live="polite"></span>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" autocomplete="off" required aria-describedby="message-error"></textarea>
+            <span class="field-error" id="message-error" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="button button-full" type="submit">Send Message</button>
+          <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+          <p class="form-note">Required fields are marked with an asterisk. You can also email us directly at <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a>.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section class="container" aria-labelledby="cta-heading">
+  <div class="cta-band">
+    <div>
+      <h2 id="cta-heading">Ready to Move Your Dallas Project Forward?</h2>
+      <p>Let's get your survey started with accuracy, experience, and confidence.</p>
+    </div>
+    <a class="button" href="#contact-form">Request a Survey Quote</a>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-brand">Probeck Surveying — Proudly Serving: Dallas, Texas</div>
+      <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+    </div>
+    <div class="footer-links">
+      <span>© 2026 All Rights Reserved</span>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js" defer></script>
+</body>
+</html>

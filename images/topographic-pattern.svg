@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420" viewBox="0 0 620 420" role="img" aria-labelledby="title desc">
+  <title id="title">Topographic line placeholder pattern</title>
+  <desc id="desc">Abstract contour lines suitable as a land surveying visual placeholder.</desc>
+  <rect width="620" height="420" fill="#f5efe3"/>
+  <g fill="none" stroke="#173f5f" stroke-opacity=".22" stroke-width="2">
+    <path d="M-20 70C60 18 136 22 202 68c72 50 143 49 212 0 65-47 138-53 226-7"/>
+    <path d="M-20 120c81-50 154-45 220 1 72 50 143 49 212 0 65-47 139-51 228-6"/>
+    <path d="M-20 172c82-48 154-39 219 7 72 51 142 51 213 0 65-46 139-48 228-1"/>
+    <path d="M-20 226c82-45 152-32 218 13 72 50 145 47 215-4 65-46 138-43 226 5"/>
+    <path d="M-20 282c84-42 149-24 216 19 76 49 149 40 217-11 66-46 137-36 226 14"/>
+    <path d="M-20 340c86-36 147-15 215 27 77 47 151 31 219-19 69-49 139-27 226 23"/>
+  </g>
+  <g transform="translate(92 88)">
+    <rect x="0" y="0" width="200" height="148" rx="18" fill="#ffffff" opacity=".74"/>
+    <path d="M39 104 82 44l38 35 41-52" fill="none" stroke="#d9822b" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="39" cy="104" r="8" fill="#143a32"/><circle cx="82" cy="44" r="8" fill="#143a32"/><circle cx="120" cy="79" r="8" fill="#143a32"/><circle cx="161" cy="27" r="8" fill="#143a32"/>
+  </g>
+</svg>
