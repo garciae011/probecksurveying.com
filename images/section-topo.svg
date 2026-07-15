@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+<title id="title">Dark topographic contour placeholder</title>
+<desc id="desc">Near-black topographic contour texture placeholder with faint amber contour lines.</desc>
+<defs>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset=".55" stop-color="#0d1419"/><stop offset="1" stop-color="#1b160e"/></linearGradient>
+  <radialGradient id="glow" cx="76%" cy="38%" r="42%"><stop offset="0" stop-color="#d59a3a" stop-opacity=".36"/><stop offset="1" stop-color="#d59a3a" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0v80" fill="none" stroke="#f4f7f8" stroke-opacity=".055"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1440" height="810" fill="url(#night)"/>
+<rect width="1440" height="810" fill="url(#glow)"/>
+<rect width="1440" height="810" fill="url(#grid)" opacity=".8"/>
+<g fill="none" stroke="#d59a3a" stroke-opacity=".28" stroke-width="2.2">
+  <path d="M-80 160c150-100 280-92 410-22 142 77 260 76 405 0 142-74 280-82 455-6 116 50 212 54 330 8"/>
+  <path d="M-80 240c160-95 286-82 410-13 140 78 256 80 404 4 150-77 288-76 454 2 128 60 232 54 332 8"/>
+  <path d="M-80 320c170-90 292-70 410 0 138 82 256 80 405 6 160-80 296-68 452 15 128 68 242 54 334 10"/>
+  <path d="M-80 405c180-80 300-54 410 18 144 94 260 72 410 2 160-74 300-54 452 30 132 74 248 55 328 16"/>
+  <path d="M-80 500c200-74 306-30 420 40 150 92 270 58 420-8 160-70 300-38 450 50 128 75 240 50 310 20"/>
+  <path d="M-80 610c205-54 308-5 430 62 150 82 280 34 430-24 164-62 302-12 440 72 126 77 232 46 300 20"/>
+</g>
+<g fill="none" stroke="#f4f7f8" stroke-opacity=".055" stroke-width="1"><path d="M120 0v810M360 0v810M600 0v810M840 0v810M1080 0v810M1320 0v810"/><path d="M0 135h1440M0 270h1440M0 405h1440M0 540h1440M0 675h1440"/></g>
+</svg>

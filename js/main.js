@@ -2,26 +2,44 @@
   const navToggle = document.querySelector('.nav-toggle');
   const nav = document.querySelector('#site-nav');
 
+  function closeNav() {
+    if (!navToggle || !nav) return;
+    navToggle.setAttribute('aria-expanded', 'false');
+    nav.classList.remove('is-open');
+    document.body.classList.remove('nav-open');
+  }
+
   if (navToggle && nav) {
     navToggle.addEventListener('click', function () {
       const isOpen = navToggle.getAttribute('aria-expanded') === 'true';
       navToggle.setAttribute('aria-expanded', String(!isOpen));
       nav.classList.toggle('is-open', !isOpen);
+      document.body.classList.toggle('nav-open', !isOpen);
     });
 
     nav.addEventListener('click', function (event) {
-      if (event.target.closest('a')) {
-        navToggle.setAttribute('aria-expanded', 'false');
-        nav.classList.remove('is-open');
-      }
+      if (event.target.closest('a')) closeNav();
     });
 
     document.addEventListener('keydown', function (event) {
-      if (event.key === 'Escape') {
-        navToggle.setAttribute('aria-expanded', 'false');
-        nav.classList.remove('is-open');
-      }
+      if (event.key === 'Escape') closeNav();
     });
+  }
+
+  const revealItems = Array.from(document.querySelectorAll('[data-reveal]'));
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (revealItems.length && !reduceMotion && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16, rootMargin: '0px 0px -8% 0px' });
+    revealItems.forEach(function (item) { observer.observe(item); });
+  } else {
+    revealItems.forEach(function (item) { item.classList.add('is-visible'); });
   }
 
   const form = document.querySelector('#survey-contact-form');

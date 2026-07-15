@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title desc">
+<title id="title">Surveying total station placeholder</title>
+<desc id="desc">Dark cinematic surveying total station silhouette placeholder at dusk.</desc>
+<defs>
+  <linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset=".55" stop-color="#0d1419"/><stop offset="1" stop-color="#1b160e"/></linearGradient>
+  <radialGradient id="glow" cx="76%" cy="38%" r="42%"><stop offset="0" stop-color="#d59a3a" stop-opacity=".36"/><stop offset="1" stop-color="#d59a3a" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse"><path d="M80 0H0v80" fill="none" stroke="#f4f7f8" stroke-opacity=".055"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
+</defs>
+<rect width="1440" height="810" fill="url(#night)"/>
+<rect width="1440" height="810" fill="url(#glow)"/>
+<rect width="1440" height="810" fill="url(#grid)" opacity=".8"/>
+<g transform="translate(850 230)" fill="none" stroke="#f4f7f8" stroke-linecap="round" stroke-linejoin="round" opacity=".88">
+  <path d="M0 0h150l-20 62H20z" fill="#111820" fill-opacity=".72" stroke-width="5"/>
+  <circle cx="75" cy="-16" r="25" fill="#d59a3a" fill-opacity=".62" stroke-width="5"/>
+  <path d="M75 62v85M75 147 10 520M75 147l75 520M75 147v520" stroke-width="8" stroke-opacity=".55"/>
+</g>
+<path d="M0 650c190-80 340-50 510-76 238-36 430-104 930-12v248H0z" fill="#101820" opacity=".72"/>
+<g stroke="#d59a3a" stroke-opacity=".35" stroke-width="2"><path d="M40 620h480M600 590h320M970 622h400"/></g>
+</svg>

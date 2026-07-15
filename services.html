@@ -4,26 +4,29 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10212f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/topographic-pattern.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <title>Our Services | Probeck Land Surveyors Dallas, Texas</title>
   <meta name="description" content="Land surveying services in Dallas including boundary surveys, residential surveys, commercial surveys, ALTA/NSPS Land Title Surveys, topographic surveys, construction staking, and consulting.">
   <meta property="og:title" content="Our Services | Probeck Land Surveyors Dallas, Texas">
   <meta property="og:description" content="Land surveying services in Dallas including boundary surveys, residential surveys, commercial surveys, ALTA/NSPS Land Title Surveys, topographic surveys, construction staking, and consulting.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.probecksurveying.com/services.html">
-  <meta property="og:image" content="https://www.probecksurveying.com/images/hero-placeholder.svg">
+  <meta property="og:image" content="https://www.probecksurveying.com/images/og-image.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to main content</a>
 <header class="site-header" data-site-header>
   <div class="container header-inner">
     <a class="logo" href="index.html" aria-label="Probeck Land Surveyors home">
-      <span class="logo-mark" aria-hidden="true">PLS</span>
-      <span class="logo-text">
-        <span class="logo-title">Probeck Surveying</span>
-        <span class="logo-subtitle">Dallas, Texas</span>
-      </span>
+      <span class="logo-chip"><img src="images/logo-site.png" alt="Probeck Land Surveyors logo" width="80" height="80"></span>
+      <span class="sr-only">PLS</span>
+      <span class="sr-only">Probeck Surveying</span>
+      <span class="sr-only">Dallas, Texas</span>
     </a>
     <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -39,8 +42,8 @@
   </div>
 </header>
 <main id="main">
-  <section class="page-hero" aria-labelledby="services-title">
-    <div class="container">
+  <section class="page-hero services-hero" aria-labelledby="services-title">
+    <div class="container" data-reveal>
       <p class="eyebrow">Dallas and North Texas</p>
       <h1 id="services-title">Our Services</h1>
       <p class="lead">Serving Dallas and Surrounding North Texas Communities</p>
@@ -48,7 +51,7 @@
   </section>
 
   <section class="section" aria-labelledby="services-intro-title">
-    <div class="container split-grid">
+    <div class="container split-grid" data-reveal>
       <div>
         <p class="eyebrow">Service area</p>
         <h2 id="services-intro-title">Focused on serving clients in Dallas, Texas.</h2>
@@ -60,25 +63,29 @@
     </div>
   </section>
 
-  <section class="section-tight" aria-labelledby="land-services-title">
-    <div class="container">
-      <div class="center text-narrow" style="margin-inline:auto;">
+  <section class="section-tight services-panels" aria-labelledby="land-services-title">
+    <div class="container" data-reveal>
+      <div class="section-heading text-narrow">
         <p class="eyebrow">Survey deliverables</p>
         <h2 id="land-services-title">Land Surveying Services in Dallas</h2>
       </div>
-      <div class="cards-grid">
-        <article class="service-card surface-card">
-          <div class="icon-box" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 19V5h14v14H5Zm4-8 2 2 4-5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div class="service-panel">
+        <div class="panel-image"><img src="images/section-residential.svg" alt="Dark aerial residential neighborhood placeholder with subtle parcel-boundary overlays" width="1440" height="810" loading="lazy"></div>
+        <article class="panel-copy">
           <h3>Residential & Property Surveys</h3>
           <ul><li>Boundary Surveys</li><li>Residential Surveys</li><li>Form Board Surveys</li><li>FEMA Elevation Certificates</li></ul>
         </article>
-        <article class="service-card surface-card">
-          <div class="icon-box" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 20h16M6 20V8l6-4 6 4v12M9 10h2m2 0h2M9 14h2m2 0h2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+      <div class="service-panel service-panel-reverse">
+        <div class="panel-image"><img src="images/hero-services.svg" alt="Dark cinematic surveying total station placeholder on open land at dusk" width="1440" height="810" loading="lazy"></div>
+        <article class="panel-copy">
           <h3>Commercial & Development Surveys</h3>
           <ul><li>Commercial Surveys</li><li>ALTA/NSPS Land Title Surveys</li><li>Topographic Surveys</li><li>Subdivision Plats</li><li>Easement and Right-of-Way Surveys</li></ul>
         </article>
-        <article class="service-card surface-card">
-          <div class="icon-box" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3v18M4 7h16M6 7l3 14m9-14-3 14M8 17h8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+      <div class="service-panel">
+        <div class="panel-image"><img src="images/section-construction.svg" alt="Dark construction site placeholder with survey stakes in the foreground" width="1440" height="810" loading="lazy"></div>
+        <article class="panel-copy">
           <h3>Construction & Consulting</h3>
           <ul><li>Construction Staking</li><li>As-Built Surveys</li><li>Utility Location Coordination</li><li>Survey Consulting Services</li></ul>
         </article>
@@ -87,7 +94,7 @@
     </div>
   </section>
 
-  <section class="container" aria-labelledby="cta-heading">
+  <section class="container" aria-labelledby="cta-heading" data-reveal>
   <div class="cta-band">
     <div>
       <h2 id="cta-heading">Ready to Move Your Dallas Project Forward?</h2>
@@ -99,9 +106,12 @@
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div>
-      <div class="footer-brand">Probeck Surveying — Proudly Serving: Dallas, Texas</div>
-      <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+    <div class="footer-brand-block">
+      <img class="footer-logo" src="images/logo-site.png" alt="Probeck Land Surveyors logo" width="80" height="80" loading="lazy">
+      <div>
+        <div class="footer-brand">Probeck Surveying — Proudly Serving: Dallas, Texas</div>
+        <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+      </div>
     </div>
     <div class="footer-links">
       <span>© 2026 All Rights Reserved</span>

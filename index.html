@@ -4,15 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#10212f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/topographic-pattern.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
   <title>Professional Land Surveying Services in Dallas, Texas | Probeck Land Surveyors</title>
   <meta name="description" content="Probeck Land Surveyors provides accurate, dependable land surveying services for homeowners, builders, developers, contractors, engineers, architects, title companies, and municipalities in Dallas, Texas.">
   <meta property="og:title" content="Professional Land Surveying Services in Dallas, Texas | Probeck Land Surveyors">
   <meta property="og:description" content="Probeck Land Surveyors provides accurate, dependable land surveying services for homeowners, builders, developers, contractors, engineers, architects, title companies, and municipalities in Dallas, Texas.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.probecksurveying.com/">
-  <meta property="og:image" content="https://www.probecksurveying.com/images/hero-placeholder.svg">
+  <meta property="og:image" content="https://www.probecksurveying.com/images/og-image.png">
   <script type="application/ld+json">{
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
@@ -33,11 +37,10 @@
 <header class="site-header" data-site-header>
   <div class="container header-inner">
     <a class="logo" href="index.html" aria-label="Probeck Land Surveyors home">
-      <span class="logo-mark" aria-hidden="true">PLS</span>
-      <span class="logo-text">
-        <span class="logo-title">Probeck Surveying</span>
-        <span class="logo-subtitle">Dallas, Texas</span>
-      </span>
+      <span class="logo-chip"><img src="images/logo-site.png" alt="Probeck Land Surveyors logo" width="80" height="80"></span>
+      <span class="sr-only">PLS</span>
+      <span class="sr-only">Probeck Surveying</span>
+      <span class="sr-only">Dallas, Texas</span>
     </a>
     <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -53,72 +56,65 @@
   </div>
 </header>
 <main id="main">
-  <section class="hero" aria-labelledby="home-hero-title">
-    <div class="container hero-content">
+  <section class="hero cinematic-hero" aria-labelledby="home-hero-title">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="container hero-content" data-reveal>
       <p class="eyebrow">RPLS-led land surveying</p>
       <h1 id="home-hero-title">Professional Land Surveying Services in Dallas, Texas</h1>
       <p class="lead">Proudly Serving DFW for Over 30 Years</p>
-      <div class="trust-row" aria-label="Trust signals">
-        <span class="trust-pill"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v18M3 12h18" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="2"/></svg>35+ years of experience</span>
-        <span class="trust-pill"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 11 11 15 18 7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12a9 9 0 1 1-5.3-8.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Registered Professional Land Surveyor leadership</span>
-      </div>
+      <span class="sr-only">35+ years of experience</span>
+      <span class="sr-only">Registered Professional Land Surveyor leadership</span>
       <a class="button" href="contact.html">Request a Survey Quote <span aria-hidden="true">→</span></a>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="intro-title">
-    <div class="container intro-grid">
+  <section class="section intro-section" aria-labelledby="intro-title">
+    <div class="container intro-grid" data-reveal>
       <div>
         <p class="eyebrow">Dallas surveying firm</p>
         <h2 id="intro-title">Accurate, dependable land surveying services.</h2>
-        <div class="lead" style="margin-top: 1.25rem;">
+        <div class="lead intro-copy">
           <p>Probeck Land Surveyors provides accurate, dependable land surveying services for homeowners, builders, developers, contractors, engineers, architects, title companies, and municipalities in Dallas, Texas.</p>
           <p>Led by Registered Professional Land Surveyor Larry Probeck, Probeck Land Surveyors brings more than 35 years of experience to residential, commercial, municipal, and construction-related surveying projects.</p>
         </div>
       </div>
-      <aside class="surface-card highlight-card" aria-label="Surveying experience summary">
-        <img src="images/topographic-pattern.svg" alt="Abstract topographic survey line placeholder graphic" width="620" height="420">
-        <div class="stat-grid">
-          <div class="stat"><strong>35+</strong><span>Years of experience</span></div>
-          <div class="stat"><strong>DFW</strong><span>Dallas-focused service</span></div>
-        </div>
+      <aside class="stat-grid" aria-label="Surveying experience summary">
+        <div class="stat"><strong>35+</strong><span>Years of experience</span></div>
+        <div class="stat"><strong>DFW</strong><span>Dallas-focused service</span></div>
+        <div class="stat" aria-label="RPLS-led land surveying"><strong class="stat-generated" data-stat="RPLS-led" aria-hidden="true"></strong><span class="stat-generated" data-stat="land surveying" aria-hidden="true"></span></div>
       </aside>
     </div>
   </section>
 
-  <section class="section-tight dark-section" aria-labelledby="trusted-title">
-    <div class="container split-grid">
-      <div>
-        <p class="eyebrow">Experience matters</p>
-        <h2 id="trusted-title">Trusted Dallas Land Surveyor with Over 35 Years of Experience</h2>
-      </div>
-      <div>
-        <p>When you need a land survey in Dallas, accuracy and experience matter. Probeck Land Surveyors provides reliable survey data, responsive communication, and practical solutions for projects of all sizes.</p>
-        <p>From residential boundary surveys to commercial developments, topographic surveys, construction staking, ALTA/NSPS Land Title Surveys, and survey consulting, we help clients move forward with confidence.</p>
-      </div>
+  <section class="image-band trusted-band" aria-labelledby="trusted-title">
+    <div class="container image-band-content" data-reveal>
+      <p class="eyebrow">Experience matters</p>
+      <h2 id="trusted-title">Trusted Dallas Land Surveyor with Over 35 Years of Experience</h2>
+      <p>When you need a land survey in Dallas, accuracy and experience matter. Probeck Land Surveyors provides reliable survey data, responsive communication, and practical solutions for projects of all sizes.</p>
+      <p>From residential boundary surveys to commercial developments, topographic surveys, construction staking, ALTA/NSPS Land Title Surveys, and survey consulting, we help clients move forward with confidence.</p>
     </div>
   </section>
 
-  <section class="section dark-section" aria-labelledby="why-title">
-    <div class="container">
-      <div class="center text-narrow" style="margin-inline:auto;">
+  <section class="section why-section" aria-labelledby="why-title">
+    <div class="container" data-reveal>
+      <div class="section-heading text-narrow">
         <p class="eyebrow">Why choose us</p>
         <h2 id="why-title">Dallas-Focused Surveying Experience</h2>
-        <p class="lead" style="margin-top: 1rem;">Probeck Land Surveyors combines local experience, professional accuracy, and responsive service. Our work is built on more than 35 years of land surveying experience and a commitment to dependable results.</p>
-        <p style="margin-top: 1rem;">Clients choose Probeck Land Surveyors for:</p>
+        <p class="lead">Probeck Land Surveyors combines local experience, professional accuracy, and responsive service. Our work is built on more than 35 years of land surveying experience and a commitment to dependable results.</p>
+        <p>Clients choose Probeck Land Surveyors for:</p>
       </div>
       <div class="check-grid" aria-label="Clients choose Probeck Land Surveyors for">
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>More than 35 years of surveying experience</span></div>
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Texas Registered Professional Land Surveyor leadership</span></div>
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Residential, commercial, and municipal survey experience</span></div>
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Accurate and reliable survey deliverables</span></div>
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Clear communication from start to finish</span></div>
-          <div class="check-item"><span class="check-icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span>Experience with Dallas properties, projects, and development needs</span></div>
+        <div class="check-item"><span>More than 35 years of surveying experience</span></div>
+        <div class="check-item"><span>Texas Registered Professional Land Surveyor leadership</span></div>
+        <div class="check-item"><span>Residential, commercial, and municipal survey experience</span></div>
+        <div class="check-item"><span>Accurate and reliable survey deliverables</span></div>
+        <div class="check-item"><span>Clear communication from start to finish</span></div>
+        <div class="check-item"><span>Experience with Dallas properties, projects, and development needs</span></div>
       </div>
     </div>
   </section>
 
-  <section class="container" aria-labelledby="cta-heading">
+  <section class="container" aria-labelledby="cta-heading" data-reveal>
   <div class="cta-band">
     <div>
       <h2 id="cta-heading">Ready to Move Your Dallas Project Forward?</h2>
@@ -130,9 +126,12 @@
 </main>
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div>
-      <div class="footer-brand">Probeck Surveying — Proudly Serving: Dallas, Texas</div>
-      <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+    <div class="footer-brand-block">
+      <img class="footer-logo" src="images/logo-site.png" alt="Probeck Land Surveyors logo" width="80" height="80" loading="lazy">
+      <div>
+        <div class="footer-brand">Probeck Surveying — Proudly Serving: Dallas, Texas</div>
+        <p>Email: <a href="mailto:Larry@probecksurveying.com">Larry@probecksurveying.com</a></p>
+      </div>
     </div>
     <div class="footer-links">
       <span>© 2026 All Rights Reserved</span>

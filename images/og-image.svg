@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset=".7" stop-color="#0d1419"/><stop offset="1" stop-color="#211709"/></linearGradient>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<g fill="none" stroke="#d59a3a" stroke-opacity=".26" stroke-width="2">
+  <path d="M-40 120c150-95 270-80 390-10 132 77 250 80 390 2 150-82 292-70 450 8"/>
+  <path d="M-40 220c160-90 275-70 390 4 132 84 252 76 392 0 156-84 295-58 448 25"/>
+  <path d="M-40 335c180-80 290-42 404 34 138 90 260 60 402-8 164-78 296-36 446 48"/>
+  <path d="M-40 470c190-58 300-10 420 58 142 80 268 40 418-22 160-66 300-10 442 70"/>
+</g>
+<text x="72" y="112" fill="#d59a3a" font-family="Space Grotesk, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4">PROBECK LAND SURVEYORS</text>
+<text x="72" y="288" fill="#f4f7f8" font-family="Space Grotesk, Arial, sans-serif" font-size="70" font-weight="600" letter-spacing="-3">
+  <tspan x="72" dy="0">Professional Land</tspan>
+  <tspan x="72" dy="82">Surveying Services</tspan>
+  <tspan x="72" dy="82">in Dallas, Texas</tspan>
+</text>
+<text x="74" y="560" fill="rgba(244,247,248,.72)" font-family="Space Grotesk, Arial, sans-serif" font-size="24">Accuracy. Experience. Confidence.</text>
+</svg>
